@@ -1,0 +1,157 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #95a7d7;
+    /* Dark background */
+    color: #fff;
+    /* Light text for contrast */
+    padding: 20px 0;
+}
+
+header .header-content {
+    text-align: center;
+}
+
+header h1,
+header h2 {
+    color: #fff;
+    /* Ensuring header text is white */
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #fff;
+    /* White navigation links */
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ff6347;
+    /* Highlight on hover */
+}
+
+
+#about>p>a {
+    color: #490feb;
+}
+
+/* Section Styling */
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    border-bottom: 2px solid #726baf;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Experience Section Styling */
+.experience-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-list .job {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-list .job h4 {
+    margin: 0;
+    color: #333;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    border-radius: 50%;
+}
+
+
+
+/* Contact Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #9a91cf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #000bff;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #95a7d7;
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #5c5591;
+}
+
+footer a:hover {
+    color: #0006ff;
+}
